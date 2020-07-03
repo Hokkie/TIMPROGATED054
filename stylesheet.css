@@ -1,0 +1,97 @@
+a {
+	text-decoration: none;
+}
+div {
+	display: block;
+}
+footer {
+	font-family: Verdana;
+	background-color: #95979c;
+}
+
+.list-down {
+	width: 21%;
+	text-align: center;
+}
+
+.list-down li {
+	list-style: none;
+	cursor: pointer;
+	padding-bottom: 5px;
+}
+
+.list-down-header {
+	font-size: 20px;
+	padding-bottom :30px;
+}
+
+.list-down-one {
+	color: white;
+}
+
+.list-down-one:hover {
+	text-decoration-style:solid;
+	color: rgb(50,54,51);
+	text-shadow: 0 0 1px #1c1f1c;
+}
+
+.footer-contain ul {
+	float: left;
+}
+
+.footer-contain2 {
+	float: none;
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.footer-contain2 strong {
+	color: white;
+}
+
+.contact-submit {
+	padding:5px;
+	background-color: #e30909;
+	border: 1px solid white;
+	cursor: pointer;
+	box-shadow: 0 2px #b00000;
+	border-radius: 5px;
+	color: white;
+}
+
+.contact-submit:active {
+	position: relative;
+	top: 2px;
+	box-shadow: none;
+	border-radius: 5px;
+	border: 1px solid white;
+}
+
+div.footnote {
+	clear: both;
+}
+
+.footnote {
+	height: 75px;
+}
+
+.footnote-logo img {
+	width: 50px;
+	padding-top: 10px;
+	padding-left: 30px;
+	float: left;
+}
+
+.footnote-footer li {
+	font-size: 12px;
+	float: right;
+	padding-top: 38px;
+	padding-right: 25px;
+	list-style: none;
+}
+
+.footnote-footer-list:hover {
+	color: black;
+}
